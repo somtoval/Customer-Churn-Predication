@@ -1,4 +1,4 @@
-# 📄✏ Sensor Fault Detection Project
+# 📄✏ Customer Churn Prediction Project
 This is a machine learning project to predict customer churn in a telecommunication industry
 
 #### Dataset is taken from Kaggle
