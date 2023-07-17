@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <form action="{{url_for('predict_churn')}}" method="POST">
+            <div class="form-group">
+                <label for="carat">AccountWeeks:</label>
+                <input type="text" id="AccountWeeks" name="AccountWeeks" placeholder="Enter the AccountWeeks">
+            </div>
+
+            <div class="form-group">
+                <label for="depth">DataUsage:</label>
+                <input type="text" id="DataUsage" name="DataUsage" placeholder="Enter the DataUsage">
+            </div>
+
+            <div class="form-group">
+                <label for="table">DayMins:</label>
+                <input type="text" id="DayMins" name="DayMins" placeholder="Enter the DayMins">
+            </div>
+
+            <div class="form-group">
+                <label for="DayCalls">DayCalls:</label>
+                <input type="text" id="DayCalls" name="DayCalls" placeholder="Enter the DayCalls">
+            </div>
+
+            <div class="form-group">
+                <label for="MonthlyCharge">MonthlyCharge:</label>
+                <input type="text" id="MonthlyCharge" name="MonthlyCharge" placeholder="Enter the MonthlyCharge">
+            </div>
+
+            <div class="form-group">
+                <label for="OverageFee">OverageFee:</label>
+                <input type="text" id="OverageFee" name="OverageFee" placeholder="Enter the OverageFee">
+            </div>
+
+            <div class="form-group">
+                <label for="RoamMins">RoamMins:</label>
+                <input type="text" id="RoamMins" name="RoamMins" placeholder="Enter the RoamMins">
+            </div>
+
+            <div class="form-group">
+                <label for="ContractRenewal">ContractRenewal:</label>
+                <input type="text" id="ContractRenewal" name="ContractRenewal" placeholder="Enter the ContractRenewal">
+            </div>
+
+            <div class="form-group">
+                <label for="DataPlan">DataPlan:</label>
+                <input type="text" id="DataPlan" name="DataPlan" placeholder="Enter the DataPlan">
+            </div>
+
+            <div class="form-group">
+                <label for="CustServCalls">CustServCalls:</label>
+                <input type="text" id="CustServCalls" name="CustServCalls" placeholder="Enter the CustServCalls">
+            </div>
+
+            <div style="clear:both;">
+                <input type="submit" value="submit">
+                {{final_result}}
+            </div>    
+        </form>
+    </body>
+</html>
